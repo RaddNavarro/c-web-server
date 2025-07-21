@@ -6,7 +6,7 @@ Linux/macOS:
 - *GCC*
 
 Windows (never tested on windows):
-- *some sort of make port for windows*
+- *some sort of **make** port for windows*
 - *a C compiler*
 
 
