@@ -96,7 +96,7 @@ void parse_request(char *req_buffer, int client_socket) {
   theRest = original;
   firstLine = strtok_r(theRest, "\n", &theRest);
 
-  // stupid way of getting the http method and the uri request
+  // stupid way of getting the http method and the uri path
   // pls fix this with something else omg this is so ugly
   for (i = 0; i < 2; i++) {
     switch (i) {
