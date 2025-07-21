@@ -1,4 +1,10 @@
 # c-web-server
+This is just a simple web server with 2 routes, and garbage code.
+
+__Routes__:
+- `/`
+- `/about`
+- and a `404 not found` page when the route doesnt exist.
 
 ## __MUST HAVE__
 Linux/macOS: 
